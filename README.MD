@@ -7,13 +7,13 @@ Lending Club had a very interesting year in 2016, so we’ll take a look at some
 
 We’ll use the loan data from 2007–2010 and try to classify and predict whether the borrower paid back their loan in full. You can download the data from here, or simply use the CSV file already provided. It is recommended to use the provided CSV file, as it has been cleaned of NA values.
 
-Here’s what the columns represent:
+## Here’s what the columns represent:
 
-credit.policy: 1 if the customer meets the LendingClub.com credit underwriting criteria, and 0 otherwise.
+**credit.policy:** 1 if the customer meets the LendingClub.com credit underwriting criteria, and 0 otherwise.
 
-purpose: The purpose of the loan (possible values: "credit_card", "debt_consolidation", "educational", "major_purchase", "small_business", and "all_other").
+**purpose:** The purpose of the loan (possible values: "credit_card", "debt_consolidation", "educational", "major_purchase", "small_business", and "all_other").
 
-int.rate: The interest rate on the loan (an 11% rate would be stored as 0.11). Borrowers deemed riskier by LendingClub.com are assigned higher interest rates.
+**int.rate:** The interest rate on the loan (an 11% rate would be stored as 0.11). Borrowers deemed riskier by LendingClub.com are assigned higher interest rates.
 
 installment: The monthly payment owed by the borrower if the loan is funded.
 
