@@ -15,22 +15,22 @@ We’ll use the loan data from 2007–2010 and try to classify and predict wheth
 
 **int.rate:** The interest rate on the loan (an 11% rate would be stored as 0.11). Borrowers deemed riskier by LendingClub.com are assigned higher interest rates.
 
-installment: The monthly payment owed by the borrower if the loan is funded.
+**installment:** The monthly payment owed by the borrower if the loan is funded.
 
-log.annual.inc: The natural log of the borrower’s self-reported annual income.
+**log.annual.inc:** The natural log of the borrower’s self-reported annual income.
 
-dti: Debt-to-income ratio of the borrower (amount of debt divided by annual income).
+**dti:** Debt-to-income ratio of the borrower (amount of debt divided by annual income).
 
-fico: The borrower’s FICO credit score.
+**fico:** The borrower’s FICO credit score.
 
-days.with.cr.line: The number of days the borrower has had a credit line.
+**days.with.cr.line:** The number of days the borrower has had a credit line.
 
-revol.bal: The borrower’s revolving balance (amount unpaid at the end of the credit card billing cycle).
+**revol.bal:** The borrower’s revolving balance (amount unpaid at the end of the credit card billing cycle).
 
-revol.util: The borrower’s revolving line utilization rate (amount of credit used relative to total available credit).
+**revol.util:** The borrower’s revolving line utilization rate (amount of credit used relative to total available credit).
 
-inq.last.6mths: Number of inquiries made by creditors into the borrower’s credit in the last 6 months.
+**inq.last.6mths:** Number of inquiries made by creditors into the borrower’s credit in the last 6 months.
 
-delinq.2yrs: Number of times the borrower has been more than 30 days past due on a payment in the past 2 years.
+**delinq.2yrs:** Number of times the borrower has been more than 30 days past due on a payment in the past 2 years.
 
-pub.rec: The number of derogatory public records for the borrower (bankruptcies, tax liens, or judgments).
+**pub.rec:** The number of derogatory public records for the borrower (bankruptcies, tax liens, or judgments).
